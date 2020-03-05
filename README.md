@@ -3,11 +3,11 @@ Example DUNE analysis example
 
 ## Introduction
 
-> This an example DUNE analysis package that contructs a UPS package
-> from a git repository.
-> The original version was copied from ToyCmake in cetbuildtools.
-> Here are the instruction from that package:
-> 
+This an example DUNE analysis package that contructs a UPS package
+from a git repository.
+The original version was copied from ToyCmake in cetbuildtools.
+Here are the instruction from that package:
+
 > This is a very simple example for cmake.
 > It builds two libraries and an executable.
 > 
