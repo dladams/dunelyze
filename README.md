@@ -13,12 +13,6 @@ This is a very simple example for cmake.
 It builds two libraries and an executable.
 
 To use this example:
-
-<pre>
-This is a very simple example for cmake.
-It builds two libraries and an executable.
-
-To use this example:
 mkdir <my-empty-directory>
 cd <my-empty-directory>
 cp -pr $CETBUILDTOOLS_DIR/example/ToyCmake .
