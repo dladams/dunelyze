@@ -8,12 +8,13 @@ from a git repository.
 The original version was copied from ToyCmake in cetbuildtools.
 Here are the instruction from that package:
 
+<pre>
 > This is a very simple example for cmake.
 > It builds two libraries and an executable.
 > 
 > To use this example:
-> mkdir <my-empty-directory>  
-> cd <my-empty-directory>  
+> mkdir \<my-empty-directory>  
+> cd \<my-empty-directory>  
 > cp -pr $CETBUILDTOOLS_DIR/example/ToyCmake .  
 > mkdir build install  
 > cd build (this is your working directory)  
@@ -27,6 +28,7 @@ Here are the instruction from that package:
 > make test  
 > make install  
 > make package (create a distribution tarball)  
+</pre>
 
 See READMEs and comments in the various files for specific information
 about customizing for your package.
