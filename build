@@ -1,0 +1,14 @@
+# build
+#
+# David Adams
+# March 2020
+#
+# Build this package.
+
+if [ -z "$DUNELYZE_DIR" ]; then
+  echo Please set up dunelyze.
+  exit 1
+fi
+
+source $DUNELYZE_DIR/dunelyze/ups/setup_for_development -p
+cmake
