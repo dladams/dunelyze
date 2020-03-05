@@ -9,15 +9,15 @@ The original version was copied from ToyCmake in cetbuildtools.
 Here are the instruction from that package:
 
 <pre>
-> This is a very simple example for cmake.
-> It builds two libraries and an executable.
-> 
-> To use this example:
-> mkdir \<my-empty-directory>  
-> cd \<my-empty-directory>  
-> cp -pr $CETBUILDTOOLS_DIR/example/ToyCmake .  
-> mkdir build install  
-> cd build (this is your working directory)  
+This is a very simple example for cmake.
+It builds two libraries and an executable.
+
+To use this example:
+mkdir my-empty-directory>  
+cd \<my-empty-directory>  
+cp -pr $CETBUILDTOOLS_DIR/example/ToyCmake .  
+mkdir build install  
+cd build (this is your working directory)  
 > source ../ToyCmake/ups/setup_for_development  
 >    This will setup cmake and gcc v4_5_1  
 >    This will also define CETPKG_TYPE, CETPKG_QUAL, and CETPKG_SOURCE  
