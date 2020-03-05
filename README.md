@@ -1,2 +1,21 @@
 # dunelyze
 Example DUNE analysis example
+
+## Introduction
+
+This an example DUNE analysis package that contructs a UPS package
+from a git repository.
+The original version was copied from ToyCmake in cetbuildtools.
+Here are the instruction from that package:
+
+> This is a very simple example for cmake.  It will build a library, an executable,
+> and install files into a directory ready to be tarred up as a relocateable ups product.
+> Various CET conventions:
+> 1. Include files are of the form #include "MyProduct/MyHeader.h"
+> 2. Source code and headers live in the same directory
+> 3. Supported flavors: 64bit SLF5 and SLF6
+> 4. in a build directory:
+>    source .../ToyCmake/ups/setup_for_development <-d|-p>
+>    where -d means debug and -p means profile
+>    This will establish the build environment so you can then run cmake and make
+
