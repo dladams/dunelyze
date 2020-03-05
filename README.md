@@ -13,8 +13,8 @@ This is a very simple example for cmake.
 It builds two libraries and an executable.
 
 To use this example:
-mkdir <my-empty-directory>
-cd <my-empty-directory>
+mkdir &ltmy-empty-directory>
+cd &ltmy-empty-directory>
 cp -pr $CETBUILDTOOLS_DIR/example/ToyCmake .
 mkdir build install
 cd build (this is your working directory)
